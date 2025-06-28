@@ -20,28 +20,28 @@ export default function App() {
             <Route path="/" element={
               <>
                 <Navbar />
-                <main><Home /></main>
+                <main className="pt-16 md:pt-20"><Home /></main>
                 <Footer />
               </>
             } />
             <Route path="/about" element={
               <>
                 <Navbar />
-                <main><About /></main>
+                <main className="pt-16 md:pt-20"><About /></main>
                 <Footer />
               </>
             } />
             <Route path="/developers" element={
               <>
                 <Navbar />
-                <main><Developers /></main>
+                <main className="pt-16 md:pt-20"><Developers /></main>
                 <Footer />
               </>
             } />
             <Route path="/contact" element={
               <>
                 <Navbar />
-                <main><Contact /></main>
+                <main className="pt-16 md:pt-20"><Contact /></main>
                 <Footer />
               </>
             } />

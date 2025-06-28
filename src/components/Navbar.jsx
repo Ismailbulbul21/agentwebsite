@@ -34,11 +34,11 @@ export default function Navbar() {
     if (isHomePage) {
       return scrolled 
         ? 'bg-white/90 backdrop-blur-xl shadow-2xl border-b border-gray-200/50' 
-        : 'bg-white/10 backdrop-blur-md border-b border-white/20'
+        : 'bg-black/30 backdrop-blur-md border-b border-white/20'
     } else {
       return scrolled 
         ? 'bg-white/95 backdrop-blur-xl shadow-2xl border-b border-gray-200/50'
-        : 'bg-white/90 backdrop-blur-lg shadow-lg border-b border-gray-200/30'
+        : 'bg-white/95 backdrop-blur-xl shadow-lg border-b border-gray-200/50'
     }
   }
 

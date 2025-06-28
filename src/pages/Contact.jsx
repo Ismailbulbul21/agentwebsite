@@ -52,7 +52,7 @@ export default function Contact() {
   ]
 
   return (
-    <div className="pt-16 md:pt-20">
+    <div>
       {/* Hero Section with Background */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
